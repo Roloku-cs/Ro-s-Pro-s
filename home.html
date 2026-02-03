@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 <body>
     <header>
@@ -13,42 +15,90 @@
     </header>
 
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="#about"><i class="fas fa-user"></i> About</a>
+        <a href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
+        <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
     </nav>
 
     <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my portfolio! It's kind of lackluster for the time being, but stay tuned, because I assure you there is more to come!</p>
-            <P>I am a Computer Science major at the University of Louisiana at Lafayette. I am also graduating so that's fun. I just have to power through this last semester!</P>
-        </section>
+        <div class="grid-wrapper">
+            <div class="grid-left">
+                <section id="about">
+                    <h2><i class="fas fa-user-circle"></i> About Me</h2>
+                    <p>Welcome to my portfolio! It's kind of lackluster for the time being, but stay tuned, because I assure you there is more to come!</p>
+                    <P>I am a Computer Science major at the University of Louisiana at Lafayette. I am also graduating so that's fun. I just have to power through this last semester!</P>
+                </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>First project will go here highlighting the technologies used and what I accomplished.</p>
-                </div>
+                <section id="projects">
+                    <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+                    <div class="projects">
+                        <div class="project-card">
+                            <h3><i class="fas fa-star"></i> Project 1</h3>
+                            <p>First project will go here highlighting the technologies used and what I accomplished.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3><i class="fas fa-star"></i> Project 2</h3>
+                            <p>Second project will go here highlighting the technologies used and what I accomplished.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3><i class="fas fa-star"></i> Project 3</h3>
+                            <p>Third project will go here highlighting the technologies used and what I accomplished.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3><i class="fas fa-star"></i> Project 4</h3>
+                            <p>Fourth project will go here highlighting the technologies used and what I accomplished.</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-        </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Backend Languages: Java, Python, C++, C#, TypeScript, Verilog</li>
-                <li>Frontend Languages: HTML, CSS, React, React Native</li>
-                <li>Technologies: Node.js, Docker, Payload CMS, Bootstrap, Django CSS</li>
-                <li>Databases: PostgreSQL, SQLite, MongoDB</li>
-            </ul>
-        </section>
+            <div class="grid-right">
+                <section id="skills">
+                    <h2><i class="fas fa-toolbox"></i> Skills</h2>
+                    
+                    <h3><strong>Backend Languages</strong></h3>
+                    <ul>
+                        <li><i class="devicon-javascript-plain"></i> JavaScript</li>
+                        <li><i class="devicon-java-plain"></i> Java</li>
+                        <li><i class="devicon-python-plain"></i> Python</li>
+                        <li><i class="devicon-cplusplus-plain"></i> C++</li>
+                        <li><i class="devicon-csharp-plain"></i> C#</li>
+                        <li><i class="devicon-typescript-plain"></i> TypeScript</li>
+                        <li>Verilog</li>
+                    </ul>
+                    
+                    <h3><strong>Frontend Languages</strong></h3>
+                    <ul>
+                        <li><i class="devicon-html5-plain"></i> HTML</li>
+                        <li><i class="devicon-css3-plain"></i> CSS</li>
+                        <li><i class="devicon-react-original"></i> React</li>
+                        <li>React Native</li>
+                    </ul>
+                    
+                    <h3><strong>Technologies</strong></h3>
+                    <ul>
+                        <li><i class="devicon-nodejs-plain"></i> Node.js</li>
+                        <li><i class="devicon-docker-plain"></i> Docker</li>
+                        <li>Payload CMS</li>
+                        <li><i class="devicon-bootstrap-plain"></i> Bootstrap</li>
+                        <li>Django CSS</li>
+                    </ul>
+                    
+                    <h3><strong>Databases</strong></h3>
+                    <ul>
+                        <li><i class="devicon-postgresql-plain"></i> PostgreSQL</li>
+                        <li><i class="devicon-sqlite-plain"></i> SQLite</li>
+                        <li><i class="devicon-mongodb-plain"></i> MongoDB</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
 
         <section id="contact">
-            <h2>Get In Touch</h2>
-            <p>Feel free to reach out to me at <strong>roland.okungbowa1@louisiana.edu</strong></p>
+            <h2><i class="fas fa-handshake"></i> Get In Touch</h2>
+            <p><i class="fas fa-envelope"></i> Feel free to reach out to me at <strong>roland.okungbowa1@louisiana.edu</strong></p>
+            <p>Stay tuned for GitHub repo information and Indeed links!!!</p>
         </section>
     </div>
 
